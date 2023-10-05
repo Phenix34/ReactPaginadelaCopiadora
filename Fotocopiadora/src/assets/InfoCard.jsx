@@ -2,6 +2,8 @@
 
 export function InfoCard({titulo,descripcion,icond}) {
     return(
+        
+       
         <div className="card" style={{justifyContent: 'space-between'}}>
     <div className="card-body d-flex flex-wrap align-items-center"> {/* Utiliza flexbox y flex-wrap para alinear y envolver elementos */}
         <div className="flex-shrink-0" style={{ marginRight: '10px', width: '20%', height: 'auto' }}> {/* Estilo para el ícono */}
@@ -16,6 +18,8 @@ export function InfoCard({titulo,descripcion,icond}) {
         </div>
     </div>
 </div>
+
+
 
 
     
